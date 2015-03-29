@@ -17,7 +17,12 @@ var BaseConocimiento = new File({
 		 homework_n:[
 			{description:'prolog los canibales',url:'wwww.mega.con'},
 			{description:'resumen del capitulo 11',url:'wwww.mega.con'}
-			]}
+		]},
+		{partial_n:'3',
+		 homework_n:[
+			{description:'Redsemantica',url:'wwww.mega.con'},
+			{description:'Redsemeantica',url:'wwww.mega.con'}
+		]}
 		],
 	exam:[
 		{

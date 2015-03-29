@@ -1,6 +1,8 @@
 var mongoose = require('mongoose'),
 	Schema	 = mongoose.Schema;
-mongoose.connect('mongodb://localhost/naruto2');
+/*mongoose.connect('mongodb://localhost/naruto2');*/
+//mongoose.connect('mongodb://nodejitsu:4f4c928a06a7a407bd144a7a8eecbc37@troup.mongohq.com:10047/nodejitsudb2096137921');
+ mongoose.connect('mongodb://snatly:k0985527750@ds041157.mongolab.com:41157/dbsnatly')  
 
 var FileSchema = new Schema({
 	subject: {type:String, require:true},//nombre materia

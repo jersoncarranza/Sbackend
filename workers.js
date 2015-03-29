@@ -1,14 +1,14 @@
 var http	= require('http');
 var conf = require('./conf.json');
 var expressServer = require('./app/ExpressServer');
-/*var mongoose = require('mongoose');*/
+//var mongoose = require('mongoose');
 var socketIO= require('./app/socketIO.js');
  
 
 var Workers = function (config) {
 config = config || {}
 
-/*mongoose.connect('mongodb://localhost/naruto2');*/
+//mongoose.connect('mongodb://nodejitsu:3af9571979d1c5269b1208be54bfa38f@troup.mongohq.com:10073/nodejitsudb3726992572');
 var app = new expressServer();
 
 
